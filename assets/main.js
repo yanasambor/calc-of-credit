@@ -36,8 +36,8 @@ let percensSumm = 0;
         Ежемесячный платеж ${monthPay.toFixed(2)} грн.
         Долг: ${debt.toFixed(2)})`);
     } 
-
-    console.log(`Сумма процентов за весь срок кредита ${percensSumm.toFixed()} грн.`);
+    console.log(`Сумма кредита: ${creditSum} грн.`);
+    console.log(`Сумма процентов за весь срок кредита: ${percensSumm.toFixed()} грн.`);
 
     let totalSum = creditSum+percensSumm;
 
